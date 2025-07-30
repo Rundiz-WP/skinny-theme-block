@@ -1,0 +1,149 @@
+/*
+Theme design.
+
+This file is custom design for the theme.
+It is no need for minimum WordPress theme requirements but for make it easier to see parts of the theme.
+
+@license http://opensource.org/licenses/MIT MIT
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+html, body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+body {
+    margin: 10px;
+    padding: 0;
+}
+
+
+.clearfix,
+.clearfloat,
+.clear-float {
+    clear: both;
+}
+
+
+.container {
+    margin: 0 auto;
+}
+@media (min-width: 1000px) and (max-width: 1199px) {
+    .container {
+        width: 1000px;
+    }
+}
+@media (min-width: 1220px) and (max-width: 1599px) {
+    .container {
+        width: 1200px;
+    }
+}
+@media (min-width: 1620px) {
+    .container {
+        width: 1600px;
+    }
+}
+
+.container .row {
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+@media (min-width: 800px) {
+    .container .row {
+        flex-direction: row;
+    }
+}
+
+
+.each-post,
+.wp-block-post {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.each-post-contents h1,
+.each-post-contents h2,
+.each-post-contents h3,
+.each-post-contents h4,
+.each-post-contents h5,
+.each-post-contents h6,
+.each-post-contents p {
+    margin: 0 0 15px;
+}
+.each-post-contents > *:last-child {
+    margin-bottom: 0;
+}
+.each-post-title {
+    margin: 0 0 15px;
+}
+
+
+.pagination {
+    padding: 10px 0;
+}
+
+
+.site-header * {
+    margin: 0 0 10px 0;
+}
+.site-header h1 {
+    font-size: 1.65em;
+}
+
+
+.site-main-column,
+.site-sidebar {
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    width: 100%;
+}
+@media (min-width: 800px) {
+    .site-main-column,
+    .site-sidebar {
+        width: auto;
+    }
+    .site-main-column {
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+    .site-sidebar {
+        width: 200px;
+    }
+}
+@media (min-width: 1120px) {
+    .site-sidebar {
+        width: 300px;
+    }
+}
+.site-sidebar .sidebar-area {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.site-sidebar .sidebar-area > li {
+    padding: 10px 0;
+}
+.site-sidebar .sidebar-area > li:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+.site-sidebar .sidebar-area > li h1,
+.site-sidebar .sidebar-area > li h2,
+.site-sidebar .sidebar-area > li h3,
+.site-sidebar .sidebar-area > li h4,
+.site-sidebar .sidebar-area > li h5,
+.site-sidebar .sidebar-area > li h6,
+.site-sidebar .sidebar-area > li p {
+    margin: 0 0 15px;
+}
+.site-sidebar .sidebar-area > li > *:last-child {
+    margin-bottom: 0;
+}

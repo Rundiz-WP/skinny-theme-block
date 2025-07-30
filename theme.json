@@ -1,0 +1,21 @@
+{
+    "_comments": "This file is for fix required by Theme Check while it is not required in Theme Structure handbook.",
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {},
+    "styles": {},
+    "customTemplates": [],
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "header",
+            "title": "Header"
+        },
+        {
+            "area": "sidebar",
+            "name": "sidebar",
+            "title": "Sidebar"
+        }
+    ],
+    "patterns": []
+}
