@@ -21,7 +21,7 @@ This is the block theme.
 
 This file is required by Theme Check.
 
-Tested up to PHP 8.4.
+Tested up to PHP 8.5.
 
 == Changelog ==
 = 0.1 =
